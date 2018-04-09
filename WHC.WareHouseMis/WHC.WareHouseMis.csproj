@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DCDBCAD0-065D-41D6-AD37-868396364FF7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WHC.WareHouseMis</RootNamespace>
+    <AssemblyName>WHC.WareHouseMis</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\LIB\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EasyModbus, Version=2.8.6504.29517, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LIB\EasyModbus.dll</HintPath>
+    </Reference>
+    <Reference Include="EntLibContrib.Data.MySql">
+      <HintPath>..\..\Reference\EntLibContrib.Data.MySql.dll</HintPath>
+    </Reference>
+    <Reference Include="EntLibContrib.Data.SQLite">
+      <HintPath>..\..\Reference\EntLibContrib.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\..\Reference\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder">
+      <HintPath>..\..\Reference\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\Reference\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reference\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="WHC.Framework.Commons">
+      <HintPath>..\..\Reference\WHC.Framework.Commons.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Framework.ControlUtil">
+      <HintPath>..\..\Reference\WHC.Framework.ControlUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Pager.Entity">
+      <HintPath>..\..\Reference\WHC.Pager.Entity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Card.cs" />
+    <Compile Include="BLL\Weight.cs" />
+    <Compile Include="BLL\ItemDetail.cs" />
+    <Compile Include="BLL\PurchaseDetail.cs" />
+    <Compile Include="BLL\PurchaseHeader.cs" />
+    <Compile Include="BLL\ReportAnnualCostDetail.cs" />
+    <Compile Include="BLL\ReportAnnualCostHeader.cs" />
+    <Compile Include="BLL\ReportMonthlyCostDetail.cs" />
+    <Compile Include="BLL\ReportMonthlyDetail.cs" />
+    <Compile Include="BLL\ReportMonthlyHeader.cs" />
+    <Compile Include="BLL\Stock.cs" />
+    <Compile Include="BLL\WareHouse.cs" />
+    <Compile Include="Com\SerialPortParameter.cs" />
+    <Compile Include="Com\CHCNetSDK.cs" />
+    <Compile Include="Com\State.cs" />
+    <Compile Include="Com\StateEvent.cs" />
+    <Compile Include="Com\StateMachine.cs" />
+    <Compile Include="Com\ModbusClientTest.cs" />
+    <Compile Include="DAL\DALMySql\ItemDetail.cs" />
+    <Compile Include="DAL\DALMySql\PurchaseDetail.cs" />
+    <Compile Include="DAL\DALMySql\PurchaseHeader.cs" />
+    <Compile Include="DAL\DALMySql\ReportAnnualCostDetail.cs" />
+    <Compile Include="DAL\DALMySql\ReportAnnualCostHeader.cs" />
+    <Compile Include="DAL\DALMySql\ReportMonthlyCostDetail.cs" />
+    <Compile Include="DAL\DALMySql\ReportMonthlyDetail.cs" />
+    <Compile Include="DAL\DALMySql\ReportMonthlyHeader.cs" />
+    <Compile Include="DAL\DALMySql\Stock.cs" />
+    <Compile Include="DAL\DALMySql\WareHouse.cs" />
+    <Compile Include="DAL\DALOracle\ItemDetail.cs" />
+    <Compile Include="DAL\DALOracle\PurchaseDetail.cs" />
+    <Compile Include="DAL\DALOracle\PurchaseHeader.cs" />
+    <Compile Include="DAL\DALOracle\ReportAnnualCostDetail.cs" />
+    <Compile Include="DAL\DALOracle\ReportAnnualCostHeader.cs" />
+    <Compile Include="DAL\DALOracle\ReportMonthlyCostDetail.cs" />
+    <Compile Include="DAL\DALOracle\ReportMonthlyDetail.cs" />
+    <Compile Include="DAL\DALOracle\ReportMonthlyHeader.cs" />
+    <Compile Include="DAL\DALOracle\Stock.cs" />
+    <Compile Include="DAL\DALOracle\WareHouse.cs" />
+    <Compile Include="DAL\DALSQLite\ItemDetail.cs" />
+    <Compile Include="DAL\DALSQLite\PurchaseDetail.cs" />
+    <Compile Include="DAL\DALSQLite\PurchaseHeader.cs" />
+    <Compile Include="DAL\DALSQLite\ReportAnnualCostDetail.cs" />
+    <Compile Include="DAL\DALSQLite\ReportAnnualCostHeader.cs" />
+    <Compile Include="DAL\DALSQLite\ReportMonthlyCostDetail.cs" />
+    <Compile Include="DAL\DALSQLite\ReportMonthlyDetail.cs" />
+    <Compile Include="DAL\DALSQLite\ReportMonthlyHeader.cs" />
+    <Compile Include="DAL\DALSQLite\Stock.cs" />
+    <Compile Include="DAL\DALSQLite\WareHouse.cs" />
+    <Compile Include="DAL\DALSQL\Card.cs" />
+    <Compile Include="DAL\DALSQL\ItemDetail.cs" />
+    <Compile Include="DAL\DALSQL\PurchaseDetail.cs" />
+    <Compile Include="DAL\DALSQL\PurchaseHeader.cs" />
+    <Compile Include="DAL\DALSQL\ReportAnnualCostDetail.cs" />
+    <Compile Include="DAL\DALSQL\ReportAnnualCostHeader.cs" />
+    <Compile Include="DAL\DALSQL\ReportMonthlyCostDetail.cs" />
+    <Compile Include="DAL\DALSQL\ReportMonthlyDetail.cs" />
+    <Compile Include="DAL\DALSQL\ReportMonthlyHeader.cs" />
+    <Compile Include="DAL\DALSQL\Stock.cs" />
+    <Compile Include="DAL\DALSQL\WareHouse.cs" />
+    <Compile Include="DAL\DALSQL\Weight.cs" />
+    <Compile Include="Entity\CardInfo.cs" />
+    <Compile Include="Entity\EnumClass.cs" />
+    <Compile Include="Entity\ItemDetailInfo.cs" />
+    <Compile Include="Entity\PurchaseDetailInfo.cs" />
+    <Compile Include="Entity\PurchaseHeaderInfo.cs" />
+    <Compile Include="Entity\ReportAnnualCostDetailInfo.cs" />
+    <Compile Include="Entity\ReportAnnualCostHeaderInfo.cs" />
+    <Compile Include="Entity\ReportMonthlyCostDetailInfo.cs" />
+    <Compile Include="Entity\ReportMonthlyDetailInfo.cs" />
+    <Compile Include="Entity\ReportMonthlyHeaderInfo.cs" />
+    <Compile Include="Entity\StockInfo.cs" />
+    <Compile Include="Entity\WareHouseInfo.cs" />
+    <Compile Include="Entity\WeightInfo.cs" />
+    <Compile Include="IDAL\ICard.cs" />
+    <Compile Include="IDAL\IItemDetail.cs" />
+    <Compile Include="IDAL\IPurchaseDetail.cs" />
+    <Compile Include="IDAL\IPurchaseHeader.cs" />
+    <Compile Include="IDAL\IReportAnnualCostDetail.cs" />
+    <Compile Include="IDAL\IReportAnnualCostHeader.cs" />
+    <Compile Include="IDAL\IReportMonthlyCostDetail.cs" />
+    <Compile Include="IDAL\IReportMonthlyDetail.cs" />
+    <Compile Include="IDAL\IReportMonthlyHeader.cs" />
+    <Compile Include="IDAL\IStock.cs" />
+    <Compile Include="IDAL\IWareHouse.cs" />
+    <Compile Include="IDAL\IWeight.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DAL\DALAccess\ItemDetail.cs" />
+    <Compile Include="DAL\DALAccess\PurchaseDetail.cs" />
+    <Compile Include="DAL\DALAccess\PurchaseHeader.cs" />
+    <Compile Include="DAL\DALAccess\ReportAnnualCostDetail.cs" />
+    <Compile Include="DAL\DALAccess\ReportAnnualCostHeader.cs" />
+    <Compile Include="DAL\DALAccess\ReportMonthlyCostDetail.cs" />
+    <Compile Include="DAL\DALAccess\ReportMonthlyDetail.cs" />
+    <Compile Include="DAL\DALAccess\ReportMonthlyHeader.cs" />
+    <Compile Include="DAL\DALAccess\Stock.cs" />
+    <Compile Include="DAL\DALAccess\WareHouse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
