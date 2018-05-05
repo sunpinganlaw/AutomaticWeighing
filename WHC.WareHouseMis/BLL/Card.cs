@@ -20,5 +20,13 @@ namespace WHC.WareHouseMis.BLL
         {
             base.Init(this.GetType().FullName, System.Reflection.Assembly.GetExecutingAssembly().GetName().Name);
         }
+
+        public string StorePorc_SelectNoByID(string ID, DbTransaction trans = null)
+        {
+            ICard dal = baseDal as ICard;
+            return dal.StorePorc_SelectNoByID(ID, trans);
+        }
+
+
     }
 }

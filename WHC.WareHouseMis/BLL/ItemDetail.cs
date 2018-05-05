@@ -97,5 +97,7 @@ namespace WHC.WareHouseMis.BLL
             return baseDal.Find(condition);
         }
 
+
+       
     }
 }
