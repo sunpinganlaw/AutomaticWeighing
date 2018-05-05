@@ -29,10 +29,14 @@
         private void InitializeComponent()
         {
             this.groupRearInfrared = new DevExpress.XtraEditors.GroupControl();
+            this.pictureRearInfrared2 = new System.Windows.Forms.PictureBox();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
+            this.pictureRearInfrared1 = new System.Windows.Forms.PictureBox();
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
             this.groupFrontInfrared = new DevExpress.XtraEditors.GroupControl();
+            this.pictureFrontInfrared2 = new System.Windows.Forms.PictureBox();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.pictureFrontInfrared1 = new System.Windows.Forms.PictureBox();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.groupRearControl = new DevExpress.XtraEditors.GroupControl();
             this.buttonRearRed = new System.Windows.Forms.Button();
@@ -52,36 +56,32 @@
             this.textCarNoShow = new DevExpress.XtraEditors.TextEdit();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             this.groupControlState = new DevExpress.XtraEditors.GroupControl();
-            this.buttonAuto = new System.Windows.Forms.Button();
-            this.buttonManual = new System.Windows.Forms.Button();
             this.textContrlState = new DevExpress.XtraEditors.TextEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.groupRearShow = new DevExpress.XtraEditors.GroupControl();
+            this.pictureRearLed = new System.Windows.Forms.PictureBox();
+            this.pictureRearDoor = new System.Windows.Forms.PictureBox();
             this.groupFrontShow = new DevExpress.XtraEditors.GroupControl();
+            this.pictureFrontLed = new System.Windows.Forms.PictureBox();
+            this.pictureFrontDoor = new System.Windows.Forms.PictureBox();
             this.groupRearCamera = new DevExpress.XtraEditors.GroupControl();
+            this.pinctureRear = new System.Windows.Forms.PictureBox();
             this.groupFrontCamera = new DevExpress.XtraEditors.GroupControl();
+            this.pinctureFront = new System.Windows.Forms.PictureBox();
             this.groupCarNo = new DevExpress.XtraEditors.GroupControl();
             this.textCarNo = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.textWeight = new DevExpress.XtraEditors.TextEdit();
             this.groupBalance = new DevExpress.XtraEditors.GroupControl();
-            this.buttonGetMz = new System.Windows.Forms.Button();
-            this.pictureRearInfrared2 = new System.Windows.Forms.PictureBox();
-            this.pictureRearInfrared1 = new System.Windows.Forms.PictureBox();
-            this.pictureFrontInfrared2 = new System.Windows.Forms.PictureBox();
-            this.pictureFrontInfrared1 = new System.Windows.Forms.PictureBox();
-            this.pictureRearLed = new System.Windows.Forms.PictureBox();
-            this.pictureRearDoor = new System.Windows.Forms.PictureBox();
-            this.pictureFrontLed = new System.Windows.Forms.PictureBox();
-            this.pictureFrontDoor = new System.Windows.Forms.PictureBox();
-            this.pinctureRear = new System.Windows.Forms.PictureBox();
-            this.pinctureFront = new System.Windows.Forms.PictureBox();
-            this.buttonGetPz = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.groupRearInfrared)).BeginInit();
             this.groupRearInfrared.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRearInfrared2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRearInfrared1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupFrontInfrared)).BeginInit();
             this.groupFrontInfrared.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontInfrared2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontInfrared1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupRearControl)).BeginInit();
             this.groupRearControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupFrontControl)).BeginInit();
@@ -96,28 +96,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.textContrlState.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupRearShow)).BeginInit();
             this.groupRearShow.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRearLed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRearDoor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupFrontShow)).BeginInit();
             this.groupFrontShow.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontLed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontDoor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupRearCamera)).BeginInit();
             this.groupRearCamera.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pinctureRear)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupFrontCamera)).BeginInit();
             this.groupFrontCamera.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pinctureFront)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupCarNo)).BeginInit();
             this.groupCarNo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textCarNo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textWeight.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupBalance)).BeginInit();
             this.groupBalance.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureRearInfrared2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureRearInfrared1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontInfrared2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontInfrared1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureRearLed)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureRearDoor)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontLed)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontDoor)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pinctureRear)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pinctureFront)).BeginInit();
             this.SuspendLayout();
             // 
             // groupRearInfrared
@@ -132,6 +128,16 @@
             this.groupRearInfrared.TabIndex = 25;
             this.groupRearInfrared.Text = "后红外对射状态";
             // 
+            // pictureRearInfrared2
+            // 
+            this.pictureRearInfrared2.BackColor = System.Drawing.SystemColors.WindowText;
+            this.pictureRearInfrared2.Image = global::WHC.WareHouseMis.UI.Properties.Resources.red;
+            this.pictureRearInfrared2.Location = new System.Drawing.Point(151, 111);
+            this.pictureRearInfrared2.Name = "pictureRearInfrared2";
+            this.pictureRearInfrared2.Size = new System.Drawing.Size(16, 16);
+            this.pictureRearInfrared2.TabIndex = 12;
+            this.pictureRearInfrared2.TabStop = false;
+            // 
             // labelControl6
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -141,6 +147,16 @@
             this.labelControl6.Size = new System.Drawing.Size(114, 19);
             this.labelControl6.TabIndex = 11;
             this.labelControl6.Text = "红外对射二：";
+            // 
+            // pictureRearInfrared1
+            // 
+            this.pictureRearInfrared1.BackColor = System.Drawing.SystemColors.WindowText;
+            this.pictureRearInfrared1.Image = global::WHC.WareHouseMis.UI.Properties.Resources.green;
+            this.pictureRearInfrared1.Location = new System.Drawing.Point(151, 48);
+            this.pictureRearInfrared1.Name = "pictureRearInfrared1";
+            this.pictureRearInfrared1.Size = new System.Drawing.Size(16, 16);
+            this.pictureRearInfrared1.TabIndex = 10;
+            this.pictureRearInfrared1.TabStop = false;
             // 
             // labelControl7
             // 
@@ -164,6 +180,16 @@
             this.groupFrontInfrared.TabIndex = 24;
             this.groupFrontInfrared.Text = "前红外对射状态";
             // 
+            // pictureFrontInfrared2
+            // 
+            this.pictureFrontInfrared2.BackColor = System.Drawing.SystemColors.WindowText;
+            this.pictureFrontInfrared2.Image = global::WHC.WareHouseMis.UI.Properties.Resources.green;
+            this.pictureFrontInfrared2.Location = new System.Drawing.Point(144, 111);
+            this.pictureFrontInfrared2.Name = "pictureFrontInfrared2";
+            this.pictureFrontInfrared2.Size = new System.Drawing.Size(16, 16);
+            this.pictureFrontInfrared2.TabIndex = 12;
+            this.pictureFrontInfrared2.TabStop = false;
+            // 
             // labelControl5
             // 
             this.labelControl5.Appearance.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -173,6 +199,16 @@
             this.labelControl5.Size = new System.Drawing.Size(114, 19);
             this.labelControl5.TabIndex = 11;
             this.labelControl5.Text = "红外对射二：";
+            // 
+            // pictureFrontInfrared1
+            // 
+            this.pictureFrontInfrared1.BackColor = System.Drawing.SystemColors.WindowText;
+            this.pictureFrontInfrared1.Image = global::WHC.WareHouseMis.UI.Properties.Resources.red;
+            this.pictureFrontInfrared1.Location = new System.Drawing.Point(144, 48);
+            this.pictureFrontInfrared1.Name = "pictureFrontInfrared1";
+            this.pictureFrontInfrared1.Size = new System.Drawing.Size(16, 16);
+            this.pictureFrontInfrared1.TabIndex = 10;
+            this.pictureFrontInfrared1.TabStop = false;
             // 
             // labelControl4
             // 
@@ -306,8 +342,6 @@
             // 
             // groupWeighting
             // 
-            this.groupWeighting.Controls.Add(this.buttonGetPz);
-            this.groupWeighting.Controls.Add(this.buttonGetMz);
             this.groupWeighting.Controls.Add(this.textPzShow);
             this.groupWeighting.Controls.Add(this.labelControl10);
             this.groupWeighting.Controls.Add(this.textMzShow);
@@ -349,7 +383,7 @@
             // 
             this.textMzShow.EditValue = "7500KG";
             this.textMzShow.Enabled = false;
-            this.textMzShow.Location = new System.Drawing.Point(133, 130);
+            this.textMzShow.Location = new System.Drawing.Point(133, 145);
             this.textMzShow.Name = "textMzShow";
             this.textMzShow.Properties.Appearance.BackColor = System.Drawing.Color.Silver;
             this.textMzShow.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -364,7 +398,7 @@
             // 
             this.labelControl9.Appearance.Font = new System.Drawing.Font("宋体", 18F);
             this.labelControl9.Appearance.ForeColor = System.Drawing.Color.Blue;
-            this.labelControl9.Location = new System.Drawing.Point(66, 148);
+            this.labelControl9.Location = new System.Drawing.Point(66, 163);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(72, 24);
             this.labelControl9.TabIndex = 5;
@@ -396,8 +430,6 @@
             // 
             // groupControlState
             // 
-            this.groupControlState.Controls.Add(this.buttonAuto);
-            this.groupControlState.Controls.Add(this.buttonManual);
             this.groupControlState.Controls.Add(this.textContrlState);
             this.groupControlState.Controls.Add(this.labelControl3);
             this.groupControlState.Location = new System.Drawing.Point(988, 16);
@@ -405,30 +437,6 @@
             this.groupControlState.Size = new System.Drawing.Size(463, 131);
             this.groupControlState.TabIndex = 16;
             this.groupControlState.Text = "汽车称重工作模式";
-            // 
-            // buttonAuto
-            // 
-            this.buttonAuto.BackColor = System.Drawing.Color.Transparent;
-            this.buttonAuto.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAuto.ForeColor = System.Drawing.Color.Red;
-            this.buttonAuto.Location = new System.Drawing.Point(310, 90);
-            this.buttonAuto.Name = "buttonAuto";
-            this.buttonAuto.Size = new System.Drawing.Size(93, 36);
-            this.buttonAuto.TabIndex = 5;
-            this.buttonAuto.Text = "自动";
-            this.buttonAuto.UseVisualStyleBackColor = false;
-            // 
-            // buttonManual
-            // 
-            this.buttonManual.BackColor = System.Drawing.Color.Transparent;
-            this.buttonManual.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonManual.ForeColor = System.Drawing.Color.Blue;
-            this.buttonManual.Location = new System.Drawing.Point(310, 34);
-            this.buttonManual.Name = "buttonManual";
-            this.buttonManual.Size = new System.Drawing.Size(93, 36);
-            this.buttonManual.TabIndex = 3;
-            this.buttonManual.Text = "手动";
-            this.buttonManual.UseVisualStyleBackColor = false;
             // 
             // textContrlState
             // 
@@ -465,6 +473,26 @@
             this.groupRearShow.TabIndex = 23;
             this.groupRearShow.Text = "汽车后道闸红绿灯";
             // 
+            // pictureRearLed
+            // 
+            this.pictureRearLed.BackColor = System.Drawing.SystemColors.WindowText;
+            this.pictureRearLed.Image = global::WHC.WareHouseMis.UI.Properties.Resources.RL;
+            this.pictureRearLed.Location = new System.Drawing.Point(149, 20);
+            this.pictureRearLed.Name = "pictureRearLed";
+            this.pictureRearLed.Size = new System.Drawing.Size(85, 141);
+            this.pictureRearLed.TabIndex = 9;
+            this.pictureRearLed.TabStop = false;
+            // 
+            // pictureRearDoor
+            // 
+            this.pictureRearDoor.BackColor = System.Drawing.SystemColors.WindowText;
+            this.pictureRearDoor.Image = global::WHC.WareHouseMis.UI.Properties.Resources.UP;
+            this.pictureRearDoor.Location = new System.Drawing.Point(14, 27);
+            this.pictureRearDoor.Name = "pictureRearDoor";
+            this.pictureRearDoor.Size = new System.Drawing.Size(115, 79);
+            this.pictureRearDoor.TabIndex = 8;
+            this.pictureRearDoor.TabStop = false;
+            // 
             // groupFrontShow
             // 
             this.groupFrontShow.Controls.Add(this.pictureFrontLed);
@@ -475,6 +503,26 @@
             this.groupFrontShow.TabIndex = 21;
             this.groupFrontShow.Text = "汽车前道闸红绿灯";
             // 
+            // pictureFrontLed
+            // 
+            this.pictureFrontLed.BackColor = System.Drawing.SystemColors.WindowText;
+            this.pictureFrontLed.Image = global::WHC.WareHouseMis.UI.Properties.Resources.GL;
+            this.pictureFrontLed.Location = new System.Drawing.Point(139, 20);
+            this.pictureFrontLed.Name = "pictureFrontLed";
+            this.pictureFrontLed.Size = new System.Drawing.Size(85, 141);
+            this.pictureFrontLed.TabIndex = 7;
+            this.pictureFrontLed.TabStop = false;
+            // 
+            // pictureFrontDoor
+            // 
+            this.pictureFrontDoor.BackColor = System.Drawing.SystemColors.WindowText;
+            this.pictureFrontDoor.Image = global::WHC.WareHouseMis.UI.Properties.Resources.DOWN;
+            this.pictureFrontDoor.Location = new System.Drawing.Point(16, 27);
+            this.pictureFrontDoor.Name = "pictureFrontDoor";
+            this.pictureFrontDoor.Size = new System.Drawing.Size(108, 79);
+            this.pictureFrontDoor.TabIndex = 6;
+            this.pictureFrontDoor.TabStop = false;
+            // 
             // groupRearCamera
             // 
             this.groupRearCamera.Controls.Add(this.pinctureRear);
@@ -484,6 +532,15 @@
             this.groupRearCamera.TabIndex = 20;
             this.groupRearCamera.Text = "汽车后摄像头";
             // 
+            // pinctureRear
+            // 
+            this.pinctureRear.BackColor = System.Drawing.SystemColors.WindowText;
+            this.pinctureRear.Location = new System.Drawing.Point(16, 33);
+            this.pinctureRear.Name = "pinctureRear";
+            this.pinctureRear.Size = new System.Drawing.Size(433, 279);
+            this.pinctureRear.TabIndex = 5;
+            this.pinctureRear.TabStop = false;
+            // 
             // groupFrontCamera
             // 
             this.groupFrontCamera.Controls.Add(this.pinctureFront);
@@ -492,6 +549,15 @@
             this.groupFrontCamera.Size = new System.Drawing.Size(463, 328);
             this.groupFrontCamera.TabIndex = 17;
             this.groupFrontCamera.Text = "汽车前摄像头";
+            // 
+            // pinctureFront
+            // 
+            this.pinctureFront.BackColor = System.Drawing.SystemColors.WindowText;
+            this.pinctureFront.Location = new System.Drawing.Point(16, 33);
+            this.pinctureFront.Name = "pinctureFront";
+            this.pinctureFront.Size = new System.Drawing.Size(433, 279);
+            this.pinctureFront.TabIndex = 5;
+            this.pinctureFront.TabStop = false;
             // 
             // groupCarNo
             // 
@@ -563,130 +629,6 @@
             this.groupBalance.TabIndex = 14;
             this.groupBalance.Text = "汽车称重地磅";
             // 
-            // buttonGetMz
-            // 
-            this.buttonGetMz.BackColor = System.Drawing.Color.Transparent;
-            this.buttonGetMz.Enabled = false;
-            this.buttonGetMz.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonGetMz.ForeColor = System.Drawing.Color.Red;
-            this.buttonGetMz.Location = new System.Drawing.Point(310, 133);
-            this.buttonGetMz.Name = "buttonGetMz";
-            this.buttonGetMz.Size = new System.Drawing.Size(93, 39);
-            this.buttonGetMz.TabIndex = 6;
-            this.buttonGetMz.Text = "称毛重";
-            this.buttonGetMz.UseVisualStyleBackColor = false;
-            // 
-            // pictureRearInfrared2
-            // 
-            this.pictureRearInfrared2.BackColor = System.Drawing.SystemColors.WindowText;
-            this.pictureRearInfrared2.Image = global::WHC.WareHouseMis.UI.Properties.Resources.red;
-            this.pictureRearInfrared2.Location = new System.Drawing.Point(151, 111);
-            this.pictureRearInfrared2.Name = "pictureRearInfrared2";
-            this.pictureRearInfrared2.Size = new System.Drawing.Size(16, 16);
-            this.pictureRearInfrared2.TabIndex = 12;
-            this.pictureRearInfrared2.TabStop = false;
-            // 
-            // pictureRearInfrared1
-            // 
-            this.pictureRearInfrared1.BackColor = System.Drawing.SystemColors.WindowText;
-            this.pictureRearInfrared1.Image = global::WHC.WareHouseMis.UI.Properties.Resources.green;
-            this.pictureRearInfrared1.Location = new System.Drawing.Point(151, 48);
-            this.pictureRearInfrared1.Name = "pictureRearInfrared1";
-            this.pictureRearInfrared1.Size = new System.Drawing.Size(16, 16);
-            this.pictureRearInfrared1.TabIndex = 10;
-            this.pictureRearInfrared1.TabStop = false;
-            // 
-            // pictureFrontInfrared2
-            // 
-            this.pictureFrontInfrared2.BackColor = System.Drawing.SystemColors.WindowText;
-            this.pictureFrontInfrared2.Image = global::WHC.WareHouseMis.UI.Properties.Resources.green;
-            this.pictureFrontInfrared2.Location = new System.Drawing.Point(144, 111);
-            this.pictureFrontInfrared2.Name = "pictureFrontInfrared2";
-            this.pictureFrontInfrared2.Size = new System.Drawing.Size(16, 16);
-            this.pictureFrontInfrared2.TabIndex = 12;
-            this.pictureFrontInfrared2.TabStop = false;
-            // 
-            // pictureFrontInfrared1
-            // 
-            this.pictureFrontInfrared1.BackColor = System.Drawing.SystemColors.WindowText;
-            this.pictureFrontInfrared1.Image = global::WHC.WareHouseMis.UI.Properties.Resources.red;
-            this.pictureFrontInfrared1.Location = new System.Drawing.Point(144, 48);
-            this.pictureFrontInfrared1.Name = "pictureFrontInfrared1";
-            this.pictureFrontInfrared1.Size = new System.Drawing.Size(16, 16);
-            this.pictureFrontInfrared1.TabIndex = 10;
-            this.pictureFrontInfrared1.TabStop = false;
-            // 
-            // pictureRearLed
-            // 
-            this.pictureRearLed.BackColor = System.Drawing.SystemColors.WindowText;
-            this.pictureRearLed.Image = global::WHC.WareHouseMis.UI.Properties.Resources.RL;
-            this.pictureRearLed.Location = new System.Drawing.Point(149, 20);
-            this.pictureRearLed.Name = "pictureRearLed";
-            this.pictureRearLed.Size = new System.Drawing.Size(85, 141);
-            this.pictureRearLed.TabIndex = 9;
-            this.pictureRearLed.TabStop = false;
-            // 
-            // pictureRearDoor
-            // 
-            this.pictureRearDoor.BackColor = System.Drawing.SystemColors.WindowText;
-            this.pictureRearDoor.Image = global::WHC.WareHouseMis.UI.Properties.Resources.UP;
-            this.pictureRearDoor.Location = new System.Drawing.Point(14, 27);
-            this.pictureRearDoor.Name = "pictureRearDoor";
-            this.pictureRearDoor.Size = new System.Drawing.Size(115, 79);
-            this.pictureRearDoor.TabIndex = 8;
-            this.pictureRearDoor.TabStop = false;
-            // 
-            // pictureFrontLed
-            // 
-            this.pictureFrontLed.BackColor = System.Drawing.SystemColors.WindowText;
-            this.pictureFrontLed.Image = global::WHC.WareHouseMis.UI.Properties.Resources.GL;
-            this.pictureFrontLed.Location = new System.Drawing.Point(139, 20);
-            this.pictureFrontLed.Name = "pictureFrontLed";
-            this.pictureFrontLed.Size = new System.Drawing.Size(85, 141);
-            this.pictureFrontLed.TabIndex = 7;
-            this.pictureFrontLed.TabStop = false;
-            // 
-            // pictureFrontDoor
-            // 
-            this.pictureFrontDoor.BackColor = System.Drawing.SystemColors.WindowText;
-            this.pictureFrontDoor.Image = global::WHC.WareHouseMis.UI.Properties.Resources.DOWN;
-            this.pictureFrontDoor.Location = new System.Drawing.Point(16, 27);
-            this.pictureFrontDoor.Name = "pictureFrontDoor";
-            this.pictureFrontDoor.Size = new System.Drawing.Size(108, 79);
-            this.pictureFrontDoor.TabIndex = 6;
-            this.pictureFrontDoor.TabStop = false;
-            // 
-            // pinctureRear
-            // 
-            this.pinctureRear.BackColor = System.Drawing.SystemColors.WindowText;
-            this.pinctureRear.Location = new System.Drawing.Point(16, 33);
-            this.pinctureRear.Name = "pinctureRear";
-            this.pinctureRear.Size = new System.Drawing.Size(433, 279);
-            this.pinctureRear.TabIndex = 5;
-            this.pinctureRear.TabStop = false;
-            // 
-            // pinctureFront
-            // 
-            this.pinctureFront.BackColor = System.Drawing.SystemColors.WindowText;
-            this.pinctureFront.Location = new System.Drawing.Point(16, 33);
-            this.pinctureFront.Name = "pinctureFront";
-            this.pinctureFront.Size = new System.Drawing.Size(433, 279);
-            this.pinctureFront.TabIndex = 5;
-            this.pinctureFront.TabStop = false;
-            // 
-            // buttonGetPz
-            // 
-            this.buttonGetPz.BackColor = System.Drawing.Color.Transparent;
-            this.buttonGetPz.Enabled = false;
-            this.buttonGetPz.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonGetPz.ForeColor = System.Drawing.Color.Blue;
-            this.buttonGetPz.Location = new System.Drawing.Point(310, 227);
-            this.buttonGetPz.Name = "buttonGetPz";
-            this.buttonGetPz.Size = new System.Drawing.Size(93, 39);
-            this.buttonGetPz.TabIndex = 9;
-            this.buttonGetPz.Text = "称皮重";
-            this.buttonGetPz.UseVisualStyleBackColor = false;
-            // 
             // FrmWeighting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -706,12 +648,17 @@
             this.Controls.Add(this.groupBalance);
             this.Name = "FrmWeighting";
             this.Text = "汽车过磅实时监控画面";
+            this.Enter += new System.EventHandler(this.FrmWeighting_Enter);
             ((System.ComponentModel.ISupportInitialize)(this.groupRearInfrared)).EndInit();
             this.groupRearInfrared.ResumeLayout(false);
             this.groupRearInfrared.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRearInfrared2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRearInfrared1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupFrontInfrared)).EndInit();
             this.groupFrontInfrared.ResumeLayout(false);
             this.groupFrontInfrared.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontInfrared2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontInfrared1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupRearControl)).EndInit();
             this.groupRearControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupFrontControl)).EndInit();
@@ -728,12 +675,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.textContrlState.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupRearShow)).EndInit();
             this.groupRearShow.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRearLed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureRearDoor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupFrontShow)).EndInit();
             this.groupFrontShow.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontLed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontDoor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupRearCamera)).EndInit();
             this.groupRearCamera.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pinctureRear)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupFrontCamera)).EndInit();
             this.groupFrontCamera.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pinctureFront)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupCarNo)).EndInit();
             this.groupCarNo.ResumeLayout(false);
             this.groupCarNo.PerformLayout();
@@ -742,16 +695,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupBalance)).EndInit();
             this.groupBalance.ResumeLayout(false);
             this.groupBalance.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureRearInfrared2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureRearInfrared1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontInfrared2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontInfrared1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureRearLed)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureRearDoor)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontLed)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureFrontDoor)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pinctureRear)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pinctureFront)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -786,8 +729,6 @@
         private DevExpress.XtraEditors.TextEdit textCarNoShow;
         private DevExpress.XtraEditors.LabelControl labelControl8;
         private DevExpress.XtraEditors.GroupControl groupControlState;
-        private System.Windows.Forms.Button buttonAuto;
-        private System.Windows.Forms.Button buttonManual;
         private DevExpress.XtraEditors.TextEdit textContrlState;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.GroupControl groupRearShow;
@@ -806,8 +747,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.TextEdit textWeight;
         private DevExpress.XtraEditors.GroupControl groupBalance;
-        private System.Windows.Forms.Button buttonGetMz;
-        private System.Windows.Forms.Button buttonGetPz;
 
     }
 }

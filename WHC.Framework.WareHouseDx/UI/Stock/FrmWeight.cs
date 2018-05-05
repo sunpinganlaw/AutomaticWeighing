@@ -17,6 +17,7 @@ using SettingsProviderNet;
 
 
 
+
 namespace WHC.WareHouseMis.UI
 {
     /// <summary>
@@ -48,6 +49,10 @@ namespace WHC.WareHouseMis.UI
             {
                 control.KeyUp += new System.Windows.Forms.KeyEventHandler(this.SearchControl_KeyUp);
             }
+            LoginUserInfo st = (LoginUserInfo)Cache.Instance["LoginUserInfo"];
+
+            Dictionary<string, string> d = (Dictionary<string, string>)Cache.Instance["FunctionDict"];
+            txtCarNo.Text = st.FullName;
         }
         void gridView1_RowCellStyle(object sender, DevExpress.XtraGrid.Views.Grid.RowCellStyleEventArgs e)
         {
