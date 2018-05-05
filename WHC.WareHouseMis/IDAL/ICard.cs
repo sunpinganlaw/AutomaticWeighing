@@ -15,5 +15,8 @@ namespace WHC.WareHouseMis.IDAL
     /// </summary>
 	public interface ICard : IBaseDAL<CardInfo>
 	{
+
+        string StorePorc_SelectNoByID(string ID, DbTransaction trans = null);
+
     }
 }
