@@ -480,7 +480,8 @@ namespace WHC.WareHouseMis.UI
 
         private void get_mzQty_Click(object sender, EventArgs e)
         {
-
+            LoginUserInfo st = (LoginUserInfo)Cache.Instance["LoginUserInfo"];
+            BLLFactory<Weight>.Instance.AddMZByCardID("435", "75000", "hh1", " ÷∂Ø", st.FullName);
         }
 
         private void get_pzQty_Click(object sender, EventArgs e)
