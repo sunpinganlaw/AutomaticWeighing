@@ -47,6 +47,7 @@ namespace WHC.WareHouseMis.UI
             this.get_mzQty = new DevExpress.XtraEditors.SimpleButton();
             this.get_pzQty = new DevExpress.XtraEditors.SimpleButton();
             this.toggleSwitch1 = new DevExpress.XtraEditors.ToggleSwitch();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtCarNo.Properties)).BeginInit();
@@ -238,18 +239,33 @@ namespace WHC.WareHouseMis.UI
             // 
             // toggleSwitch1
             // 
-            this.toggleSwitch1.Location = new System.Drawing.Point(643, 92);
+            this.toggleSwitch1.Location = new System.Drawing.Point(196, 89);
             this.toggleSwitch1.Name = "toggleSwitch1";
-            this.toggleSwitch1.Properties.OffText = "Off";
-            this.toggleSwitch1.Properties.OnText = "On";
-            this.toggleSwitch1.Size = new System.Drawing.Size(95, 25);
+            this.toggleSwitch1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toggleSwitch1.Properties.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.toggleSwitch1.Properties.Appearance.Options.UseFont = true;
+            this.toggleSwitch1.Properties.Appearance.Options.UseForeColor = true;
+            this.toggleSwitch1.Properties.OffText = "手动过磅";
+            this.toggleSwitch1.Properties.OnText = "自动过磅";
+            this.toggleSwitch1.Size = new System.Drawing.Size(159, 30);
             this.toggleSwitch1.TabIndex = 21;
+            this.toggleSwitch1.Toggled += new System.EventHandler(this.toggleSwitch1_Toggled);
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl1.Location = new System.Drawing.Point(12, 92);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(178, 23);
+            this.labelControl1.TabIndex = 22;
+            this.labelControl1.Text = "手动/自动模式切换：";
             // 
             // FrmManualWeight
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1440, 680);
+            this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.toggleSwitch1);
             this.Controls.Add(this.get_pzQty);
             this.Controls.Add(this.get_mzQty);
@@ -273,6 +289,7 @@ namespace WHC.WareHouseMis.UI
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch1.Properties)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -300,7 +317,8 @@ namespace WHC.WareHouseMis.UI
          private DevExpress.XtraEditors.SimpleButton btn_getCardID;
          private DevExpress.XtraEditors.SimpleButton get_mzQty;
          private DevExpress.XtraEditors.SimpleButton get_pzQty;
-         private DevExpress.XtraEditors.ToggleSwitch toggleSwitch1;  
+         private DevExpress.XtraEditors.ToggleSwitch toggleSwitch1;
+         private DevExpress.XtraEditors.LabelControl labelControl1;  
  
     }
 }

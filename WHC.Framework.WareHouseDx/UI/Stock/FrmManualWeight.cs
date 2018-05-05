@@ -493,6 +493,22 @@ namespace WHC.WareHouseMis.UI
            txtCarNo.Text= BLLFactory<Card>.Instance.StorePorc_SelectNoByID("123");
         }
 
+        private void toggleSwitch1_Toggled(object sender, EventArgs e)
+        {
+            if(toggleSwitch1.IsOn)
+            {
+
+                Cache.Instance["WeightModel"] = "自动";
+              
+
+            }
+            else
+            {
+                Cache.Instance["WeightModel"] = "手动";
+
+            }
+        }
+
       
     }
 }
