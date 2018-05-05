@@ -383,7 +383,7 @@ namespace WHC.Framework.Starter
                         Portal.gc.LoginUserInfo = Portal.gc.ConvertToLoginUser(info);
                         Cache.Instance.Add("LoginUserInfo", Portal.gc.LoginUserInfo);//缓存用户信息，方便后续处理
                         Cache.Instance.Add("FunctionDict", Portal.gc.FunctionDict);//缓存权限信息，方便后续使用
-
+                        Cache.Instance.Add("WeightModel", "自动");
                         this.DialogResult = DialogResult.OK;
                     }
                 }
