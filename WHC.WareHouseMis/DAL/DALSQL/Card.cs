@@ -121,7 +121,7 @@ namespace WHC.WareHouseMis.DALSQL
             Database db = CreateDatabase();
             DbCommand command = db.GetStoredProcCommand(procName);
             db.AddInParameter(command, "@ID", DbType.String, ID);
-            db.AddOutParameter(command, "@CarNo", DbType.String, 0);//输出参数
+            db.AddOutParameter(command, "@CarNo", DbType.String, 50);//输出参数
 
             if (trans != null)
             {
