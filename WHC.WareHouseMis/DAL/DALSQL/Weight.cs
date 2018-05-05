@@ -127,5 +127,86 @@ namespace WHC.WareHouseMis.DALSQL
             return dict;
         }
 
+
+
+        public String StorePorc_AddMZByCardID(string CardID, string MZ_QTY, string MZ_BalanceNo, string MZ_Type, string MZ_Operator, DbTransaction trans = null)
+        {
+            string result = "";
+            string procName = "T_Weight_AddMZByCardID";
+
+            Database db = CreateDatabase();
+            DbCommand command = db.GetStoredProcCommand(procName);
+            db.AddInParameter(command, "@CardID", DbType.String, CardID);
+            db.AddInParameter(command, "@MZ_QTY", DbType.String, MZ_QTY);
+            db.AddInParameter(command, "@MZ_BalanceNo", DbType.String, MZ_BalanceNo);
+            db.AddInParameter(command, "@MZ_Type", DbType.String, MZ_Type);
+            db.AddInParameter(command, "@MZ_Operator", DbType.String, MZ_Operator);
+
+            db.AddOutParameter(command, "@msg", DbType.String, 50);//输出参数
+
+            if (trans != null)
+            {
+                db.ExecuteNonQuery(command, trans);
+            }
+            else
+            {
+                db.ExecuteNonQuery(command);
+            }
+
+            string temp = db.GetParameterValue(command, "@msg").ToString();
+            if (temp.Length == 0)
+            {
+                result = "执行失败";
+
+            }
+            else
+            {
+                result = temp;
+
+            }
+
+            return result;
+        }
+
+
+
+        public String StorePorc_UpdatePZByCardID(string CardID, string PZ_QTY, string PZ_BalanceNo, string PZ_Type, string PZ_Operator, DbTransaction trans = null)
+        {
+            string result = "";
+            string procName = "T_Weight_UpdatePZByCardID";
+
+            Database db = CreateDatabase();
+            DbCommand command = db.GetStoredProcCommand(procName);
+            db.AddInParameter(command, "@CardID", DbType.String, CardID);
+            db.AddInParameter(command, "@PZ_QTY", DbType.String, PZ_QTY);
+            db.AddInParameter(command, "@PZ_BalanceNo", DbType.String, PZ_BalanceNo);
+            db.AddInParameter(command, "@PZ_Type", DbType.String, PZ_Type);
+            db.AddInParameter(command, "@PZ_Operator", DbType.String, PZ_Operator);
+
+            db.AddOutParameter(command, "@msg", DbType.String, 50);//输出参数
+
+            if (trans != null)
+            {
+                db.ExecuteNonQuery(command, trans);
+            }
+            else
+            {
+                db.ExecuteNonQuery(command);
+            }
+
+            string temp = db.GetParameterValue(command, "@msg").ToString();
+            if (temp.Length == 0)
+            {
+                result = "执行失败";
+
+            }
+            else
+            {
+                result = temp;
+
+            }
+
+            return result;
+        }
     }
 }
