@@ -112,5 +112,41 @@ namespace WHC.WareHouseMis.DALSQL
             return dict;
         }
 
+
+        public  String StorePorc_SelectNoByID(string ID, DbTransaction trans = null)
+        {
+            string result = "";
+            string procName = "T_Card_SelectNoByID";
+
+            Database db = CreateDatabase();
+            DbCommand command = db.GetStoredProcCommand(procName);
+            db.AddInParameter(command, "@ID", DbType.String, ID);
+            db.AddOutParameter(command, "@CarNo", DbType.String, 0);//输出参数
+
+            if (trans != null)
+            {
+                db.ExecuteNonQuery(command, trans);
+            }
+            else
+            {
+                db.ExecuteNonQuery(command);
+            }
+
+            string temp = db.GetParameterValue(command, "@CarNo").ToString();
+            if( temp.Length==0)
+            {
+                result = "查无此卡";
+
+            }
+            else
+            {
+                result = temp;
+
+            }
+       
+            return result;
+        }
+
+
     }
 }
